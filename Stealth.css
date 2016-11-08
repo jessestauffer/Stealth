@@ -1,0 +1,130 @@
+:root {
+	--background-color: #F5F5F5;
+	--primary-color: #3A99D8;
+	--primary-secondary-color: #2180BF;
+	--success-color: #2BCE88;
+	--success-secondary-color: #12B56F;
+	--danger-color: #EC493D;
+	--danger-secondary-color: #D33024;
+}
+
+input[type=text],input[type=password],input[type=date] {width: 100%; height: 40px; border-radius: 6px; border: 1px solid #e5e5e5; font-family: 'Raleway'; font-size: 14pt; padding-left: 5px; padding-right: 5px; margin-bottom: 10px; outline: none; -webkit-appearance: none;}
+
+body {margin: 0px; padding: 0px; box-sizing: border-box; font-size: 12pt; font-family: 'Raleway', sans-serif; background-color: var(--background-color);}
+
+.alert-banner {width: 100%; height: 24px; padding-top: 16px; padding-bottom: 16px; color: #FFFFFF; background-color: var(--primary-color); text-align: center; font-weight: 600; font-size: 14pt;}
+.alert-banner.success {background-color: var(--success-color);}
+.alert-banner.danger {background-color: var(--danger-color);}
+
+.navbar {width: 100%; height: 60px; background-color: #FFFFFF;}
+.navbar .brand {color: var(--primary-color); font-weight: 800; font-size: 18pt; padding-top: 15px; display: block; margin-left: 15px; margin-right: 15px; float: left; -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; font-family: 'Raleway', sans-serif;}
+.navbar .brand.center {margin-left: auto; float: none; text-align: center;}
+.navbar .brand a {color: var(--primary-color); text-decoration: none;}
+
+.navbar .menu {float: right; color: #2D2D2D; margin-right: 15px; position: relative; top: 50%; transform: translateY(-50%); font-weight: 500;}
+.navbar .menu a {color: #000000; text-decoration: none; margin-left: 10px; margin-right: 10px; cursor: pointer;}
+.navbar .menu a:hover {text-decoration: underline;}
+
+
+.btn {display: block; margin-top: 15px; margin-bottom: 15px; width: 100%; max-width: 300px; height: 50px; color: #FFFFFF; font-size: 14pt; border: none; border-radius: 25px; font-family: 'Raleway'; font-weight: 600; margin-bottom: 10px; cursor: pointer; -webkit-appearance: none; outline: none; background-color: var(--primary-color);}
+.btn:hover {background-color: var(--primary-secondary-color);}
+.btn.success {background-color: var(--success-color);}
+.btn.success:hover {background-color: var(--success-secondary-color);}
+.btn.danger {background-color: var(--danger-color);}
+.btn.danger:hover {background-color: var(--danger-secondary-color);}
+.btn.center {margin: 15 auto;}
+
+.title {font-weight: bold; display: block; margin-bottom: 5px; margin-top: 20px; margin-left: 15px;}
+
+
+.form-group label {margin-bottom: 5px; margin-top: 10px; font-size: 10pt; display: block; font-weight: 600;}
+.form-group.center {text-align: center;}
+
+
+
+.content {margin-left: auto; margin-right: auto; background-color: white; min-height: 10px; border-radius: 4px; padding: 15px;}
+
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWELVE  */
+.col-12 {
+	width: 100%;
+}
+
+.col-11 {
+  	width: 91.53%;
+}
+.col-10 {
+  	width: 83.06%;
+}
+
+.col-9 {
+  	width: 74.6%;
+}
+
+.col-8 {
+  	width: 66.13%;
+}
+
+.col-7 {
+  	width: 57.66%;
+}
+
+.col-6 {
+  	width: 49.2%;
+}
+
+.col-5 {
+  	width: 40.73%;
+}
+
+.col-4 {
+  	width: 32.26%;
+}
+
+.col-3 {
+  	width: 23.8%;
+}
+
+.col-2 {
+  	width: 15.33%;
+}
+
+.col-1 {
+  	width: 6.866%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 768px) {
+	.btn {width: 100%; max-width: none;}
+	.col {  margin: 1% 0 1% 0%; }
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	width: 100%; 
+	}
+}
