@@ -39,3 +39,26 @@ Stealth uses a 12-column grid system to design responsive interfaces. The class 
   </div>
  ```
  
+## Buttons
+ Stealth's `.btn` class lets you easily create beautiful buttons. Stealth lets you create normal buttons, success buttons, and danger buttons. Each button type has proper coloring and hover actions. You can create a button like this:
+ 
+ ```
+ <button class="btn">Tap Me</button>
+ ```
+ Likewise, you can create a success button like this:
+ 
+ ```
+ <button class="btn success">You Did It!</button>
+ ```
+ 
+ ## Alerts
+ Stealth's `.alert` class lets you easily create beautiful, animated alerts. These are perfect for form validation messages. Stealth lets you create normal alerts, success alerts, and danger alerts. You can create an alert like this:
+ 
+ ```
+ <div class="alert">Look here!</div>
+ ```
+ Likewise, you can create a success alert like this:
+ ```
+ <div class="alert success">Congratulations! You won a free trip!</div>
+ ```
+ <b>Alert messages without text will not be visible - so you can keep them in your code!</b>
