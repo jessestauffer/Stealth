@@ -1,4 +1,4 @@
-# Stealth-UI-Framework
+# Stealth UI Framework
 Stealth is a quick and easy way to design consistent and responsive web interfaces. Stealth comes packed with pre-made CSS classes that can easily structure a web interface. It's still a work in progress, as I will be adding new classes as I find need.
 
 # How To Use
