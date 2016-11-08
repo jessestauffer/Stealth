@@ -61,4 +61,4 @@ Stealth uses a 12-column grid system to design responsive interfaces. The class 
  ```
  <div class="alert success">Congratulations! You won a free trip!</div>
  ```
- <b>Alert messages without text will not be visible - so you can keep them in your code!</b>
+ <i>Alert messages without text will not be visible - so you can keep them in your code!</i>
