@@ -51,7 +51,7 @@ Stealth uses a 12-column grid system to design responsive interfaces. The class 
  <button class="btn success">You Did It!</button>
  ```
  
- ## Alerts
+## Alerts
  Stealth's `.alert` class lets you easily create beautiful, animated alerts. These are perfect for form validation messages. Stealth lets you create normal alerts, success alerts, and danger alerts. You can create an alert like this:
  
  ```
